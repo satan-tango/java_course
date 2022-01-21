@@ -3,7 +3,7 @@ package com.javacourse.lessons.les_1.homework.Calculator;
 import java.util.Scanner;
 //I indertand what you wanted to do. But let's be realistic: have you ever seen a calculator where we could enter a String? :)
 //We do not have to overthink. Be simplier. Your code is hard to read. If you want to use this logic and show your knowledge than do it 
-//in code friendly way:)
+//in code friendly way:::)
 public class Calculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
