@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 //yes I have changed it due to some guys misunderstanding. But it's correct either.
 //+
-// Я так понял, тwswwwwwwwwы поменяла условие,я сделал, как было изначально:  2 -  y кратное ли x. x - первое чилло, y  - второе.
+// Я так понял, поменяла условие,я сделал, как было изначально:  2 -  y кратное ли x. x - первое чилло, y  - второе.
 
 public class Task2_2 {
     public static void main(String[] args) {
