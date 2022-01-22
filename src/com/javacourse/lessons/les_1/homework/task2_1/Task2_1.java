@@ -25,27 +25,27 @@ public class Task2_1 {
 
         ///////////FIRST OPTION///////////
 
-//        if (firstNumber >= secondNumber) {
-//            if(firstNumber>=thirdNumber) {
-//                biggestNumber = firstNumber;
-//            } else {
-//                biggestNumber = thirdNumber;
-//            }
-//        } else {
-//            if(secondNumber>=thirdNumber) {
-//                biggestNumber = secondNumber;
-//            } else {
-//                biggestNumber = thirdNumber;
-//            }
-//        }
+        if (firstNumber >= secondNumber) {
+            if(firstNumber>=thirdNumber) {
+                biggestNumber = firstNumber;
+            } else {
+                biggestNumber = thirdNumber;
+            }
+        } else {
+            if(secondNumber>=thirdNumber) {
+                biggestNumber = secondNumber;
+            } else {
+                biggestNumber = thirdNumber;
+            }
+        }
 
         ///////////SECOND OPTION///////////
 
-        if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
-            biggestNumber = firstNumber;
-        } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
-            biggestNumber = secondNumber;
-        } else biggestNumber = thirdNumber;
+//        if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
+//            biggestNumber = firstNumber;
+//        } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+//            biggestNumber = secondNumber;
+//        } else biggestNumber = thirdNumber;
 //good!
         System.out.printf("The biggest number is %d", biggestNumber);
     }
