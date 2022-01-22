@@ -14,7 +14,7 @@ package com.javacourse.lessons.les_2.homework.task5;
 *
 
 */
-
+//cool, but think about solution without if
 public class Task5 {
     public static void main(String[] args) {
         for (int i = 0; i < 2; i++) {
