@@ -1,7 +1,7 @@
 package com.javacourse.lessons.les_2.homework.task2;
 
 //Вычестлить A*B без операции умножения.
-
+//+
 import java.util.Scanner;
 
 public class Task2 {
