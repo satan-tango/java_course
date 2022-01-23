@@ -18,9 +18,11 @@ public class Task4 {
             if (counter % 2 == 0) {
                 evenNumbersSum += counter;
             }
+                //you could simplier use else :)
             if (counter % 2 != 0) {
                 oddNumbersSum += counter;
             }
+                //or after loop sumAllNumbers = evenNumbersSum + oddNumbersSum
             sumAllNumbers +=counter;
             counter++;
         }
