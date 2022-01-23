@@ -4,8 +4,10 @@ package com.javacourse.lessons.les_3.homework.task1;
 
 public class Task1 {
     public static void main(String[] args) {
+        //good!
         final int LAST_NUMBER = 256;
         int sumResult = 0;
+        //ok, but our topic is while loop
         for (int i = 1; i <=LAST_NUMBER ; i*=2) {
             sumResult+=i;
         }
