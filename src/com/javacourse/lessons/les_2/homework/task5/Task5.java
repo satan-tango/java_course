@@ -30,7 +30,7 @@ public class Task5 {
                 }
                 System.out.println();
             }
-            System.out.println("\n");
+            System.out.println("12");
         }
     }
 }
