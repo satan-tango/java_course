@@ -11,6 +11,7 @@ public class Work_1 {
         double firstNumber = 0;
         double secondNumber = 0;
         String symbolOfTheOperation = "";
+        //do-while would be better. Also boolean or "yes/no" would be more user-friendly
         while (statusProgram ==1) {
             System.out.print("Input first number: ");
             firstNumber = scan.nextDouble();
