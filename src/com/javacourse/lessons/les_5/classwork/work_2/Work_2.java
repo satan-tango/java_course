@@ -1,7 +1,7 @@
 package com.javacourse.lessons.les_5.classwork.work_2;
 
 import java.util.Scanner;
-
+//+
 public class Work_2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
