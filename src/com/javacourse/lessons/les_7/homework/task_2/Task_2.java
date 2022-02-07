@@ -8,8 +8,11 @@ public class Task_2 {
         String[][] chessDesk = new String[8][8];
         final String blackCell = "B";
         final String whiteCell = "W";
+        //hm, this assigments look not good. 
+        //also '%flag' corresponds to boolean, but not String
         String colFlag = whiteCell;
         String rowFlag;
+        //you could do much more easier;)
         for (int i = 0; i < chessDesk.length; i++) {
             rowFlag = colFlag;
             for (int j = 0; j < chessDesk[i].length; j++) {
