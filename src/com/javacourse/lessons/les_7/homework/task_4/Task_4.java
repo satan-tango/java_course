@@ -1,9 +1,10 @@
 package com.javacourse.lessons.les_7.homework.task_4;
 
 import java.util.Scanner;
-
+//well, I understand what you wanted to do, but it breaks some common classes design principles. Be patient:) Methods look good!
 public class Task_4 {
     private Scanner scan;
+    //actually, we do not name such variables in upper case. Usually it is done when we use 'static' with 'final'.
     private final int TOP_RANGE = 300;
     private final int BOT_RANGE = 100;
     private final int COLS = 6;
@@ -14,7 +15,7 @@ public class Task_4 {
         new Task_4();
     }
     //Есть матрица, найти в нем введенное пользователем число, вывести строку и столбец.
-
+//constructor with methods? Where did you that?:)
     public Task_4() {
         arrayOfNumber = new int[ROWS][COLS];
         initArray();
@@ -41,9 +42,9 @@ public class Task_4 {
 
 
     public int randomNumber(int max, int min) {
-        return (int) (Math.random() * (max - min + 1) + min);
+        return (int) (Math.random() * (max - min + 1) + min);//cool!
     }
-
+//+
     public void searchNumber() {
         scan = new Scanner(System.in);
         System.out.print("\nEnter a number that need to find: ");
