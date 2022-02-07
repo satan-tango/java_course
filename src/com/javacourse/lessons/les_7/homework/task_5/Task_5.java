@@ -15,11 +15,11 @@ public class Task_5 {
         initArray(arrayOfNumber, TOP_RANGE, BOT_RANGE);
         outputArrayWithSum(arrayOfNumber);
     }
-
+//+
     public static int randomNumber(int max, int min) {
         return (int) (Math.random() * (max - min + 1) + min);
     }
-
+//+
     public static void initArray(int[][] arrayOfNumber, int max, int min) {
         for (int i = 0; i < arrayOfNumber.length; i++) {
             for (int j = 0; j < arrayOfNumber[i].length; j++) {
@@ -27,7 +27,7 @@ public class Task_5 {
             }
         }
     }
-
+//output and sum could be 2 different methods:)
     public static void outputArrayWithSum(int[][] arrayOfNumber) {
         int rowSum;
         for (int i = 0; i < arrayOfNumber.length; i++) {
