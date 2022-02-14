@@ -1,7 +1,7 @@
 package com.javacourse.lessons.les_7.homework.task_1;
 
 import java.util.Scanner;
-
+//+
 public class Task_1 {
 
     //Пользоветль вводит размермер массива и заполняет его

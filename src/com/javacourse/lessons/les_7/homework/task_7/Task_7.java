@@ -1,7 +1,7 @@
 package com.javacourse.lessons.les_7.homework.task_7;
 
 import java.util.Scanner;
-
+//overcomplicated solution! It is much more easier :))
 public class Task_7 {
 
     public static void main(String[] args) {

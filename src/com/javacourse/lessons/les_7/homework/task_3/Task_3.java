@@ -1,5 +1,5 @@
 package com.javacourse.lessons.les_7.homework.task_3;
-
+//if you have 11x11 table, than as a user i would expect to see calculations with 11 as well
 public class Task_3 {
 
     public static void main(String[] args) {

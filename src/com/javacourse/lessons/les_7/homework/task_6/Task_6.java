@@ -36,6 +36,7 @@ public class Task_6 {
         int mainDiagonalSum = 0;
         for (int i = 0; i < arrayOfNumber.length; i++) {
             for (int j = 0; j < arrayOfNumber[i].length; j++) {
+                //do not overthink:) if(i==j) OR it could be done in even 1 loop! (a square matrix is in task!!)  
                 if (i == 0) {
                     mainDiagonalSum += arrayOfNumber[i][j];
                     break;

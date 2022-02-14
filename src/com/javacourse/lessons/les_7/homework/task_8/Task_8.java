@@ -1,5 +1,5 @@
 package com.javacourse.lessons.les_7.homework.task_8;
-
+//belicimo! But also there is a solution, which do not require so many loops
 public class Task_8 {
 
     public static void main(String[] args) {
