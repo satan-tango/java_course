@@ -27,8 +27,7 @@ public class Task_1 {
         while (incorrectData) {
             System.out.print("Enter array size: ");
             if (scan.hasNextInt()) {
-                size = scan.nextInt();
-                scan.nextLine();
+                size = Integer.parseInt(scan.nextLine());
                 if (size <= 0) {
                     System.out.println("Size must be positive");
                     continue;
@@ -49,8 +48,7 @@ public class Task_1 {
         while (index < array.length) {
             System.out.print("Enter the value of " + "[" + (index + 1) + "] element: ");
             if (scan.hasNextInt()) {
-                number = scan.nextInt();
-                scan.nextLine();
+                number = Integer.parseInt(scan.nextLine());
                 if (number < 0) {
                     System.out.println("There is a negative number in the array!");
                     negativeNumber = true;
