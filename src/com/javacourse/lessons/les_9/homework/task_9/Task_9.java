@@ -15,13 +15,14 @@ public class Task_9 {
         outputArray(firstArray);
         System.out.print("\n\nSecond array: ");
         outputArray(secondArray);
+        //comparingArrays(...) -> areArraysEqual(...)
         if (comparingArrays(firstArray, secondArray)) {
             System.out.println("\nArrays are equal");
         }else {
             System.out.println("\nArrays are not equal");
         }
     }
-
+//ok, also Arrays.equals(firstArray, secondArray)
     public static boolean comparingArrays(int[] firstArray, int[] secondArray) {
         if (firstArray.length != secondArray.length) {
             return false;
