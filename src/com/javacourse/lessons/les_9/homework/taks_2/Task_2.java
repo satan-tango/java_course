@@ -2,7 +2,7 @@ package com.javacourse.lessons.les_9.homework.taks_2;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
-
+//You should implement this task WITHOUT sorting an array!
 public class Task_2 {
 
     public static void main(String[] args) {

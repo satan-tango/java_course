@@ -34,6 +34,7 @@ public class Task_1 {
                 }
                 incorrectData = false;
             } else {
+                //why do you use .nextLine()? nextInt() is more logical
                 scan.nextLine();
                 System.out.println("Something went wrong, try again");
             }
@@ -48,6 +49,7 @@ public class Task_1 {
         while (index < array.length) {
             System.out.print("Enter the value of " + "[" + (index + 1) + "] element: ");
             if (scan.hasNextInt()) {
+                //nextInt()?
                 number = Integer.parseInt(scan.nextLine());
                 if (number < 0) {
                     System.out.println("There is a negative number in the array!");

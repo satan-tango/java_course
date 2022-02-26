@@ -27,6 +27,7 @@ public class Task_6 {
     public static void initChangedArray(int deletedElement, int[] sourceArray, int[] newArray) {
         int index = 0;
         for (int i = 0; i < sourceArray.length; i++) {
+            //you compare with index, not the element itself.  if (deletedElement == sourceArray[i])
             if (deletedElement == i) {
                 continue;
             }
@@ -48,6 +49,7 @@ public class Task_6 {
     public static void outputArrayWithIndex(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.printf("[%d] - %d\t\t", i, array[i]);
+            //what is 5? What is the purpose of this method?
             if ((i + 1) % 5 == 0) {
                 System.out.println();
             }

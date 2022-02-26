@@ -13,6 +13,7 @@ public class Task_8 {
         final int BOT_VALUE = 'a';
         char[] arrayOfChar = new char[ARRAY_SIZE];
         initArray(arrayOfChar, TOP_VALUE, BOT_VALUE);
+        //also we can not sort an array and you second for loop in outputDuplicate(...)
         sortArray(arrayOfChar);
         outputArray(arrayOfChar);
         outputDuplicate(arrayOfChar);
@@ -31,6 +32,7 @@ public class Task_8 {
     public static void outputArray(char[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
+            //30? Reason? 
             if ((i + 1) % 30 == 0) {
                 System.out.println();
             }
