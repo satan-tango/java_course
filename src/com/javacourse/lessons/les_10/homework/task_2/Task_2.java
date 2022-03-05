@@ -10,6 +10,7 @@ public class Task_2 {
         // Если k больше длины слова, корректировку не выполнять.
 
         Scanner scan = new Scanner(System.in);
+        //respect:))
         String somewhereOverTheRainbow = "Somewhere over the rainbow \n " +
                 "Way up high \n " +
                 "And the dreams that you dreamed of \n " +
@@ -66,7 +67,9 @@ public class Task_2 {
     public static String replaceParticularLetter(String str, Scanner scan) {
         String[] arrayOfWords = str.split(" ");
         int indexToReplace = 0;
+        //stringToReplace
         String StringToReplace;
+        //could be another method
         boolean isCorrectData = false;
 
         while (!isCorrectData) {
@@ -100,7 +103,7 @@ public class Task_2 {
                 temper += strToReplace;
             } else {
                 temper += Character.toString(str.charAt(i));
-
+//delete line
             }
         }
         return temper;
