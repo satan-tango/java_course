@@ -27,11 +27,14 @@ public class Password {
             isCorrect = true;
             System.out.print("Input password: ");
             pass = scan.next();
+            //could be another method like validateLength or isLengthValid...
             if (pass.length() < 6) {
+                //tell user what exactly went wrong!
                 System.out.println("Something went wrong, try again");
                 isCorrect = false;
                 continue;
             }
+            //could be another method
             for (int i = 0; i < pass.length(); i++) {
                 if (isNumber(pass.charAt(i))) {
                     amountOfNumbers++;
@@ -49,14 +52,14 @@ public class Password {
         }
         return pass;
     }
-
+//+
     public static boolean isCharacter(char symbol) {
         if ((symbol >= 'A' && symbol <= 'Z') || (symbol >= 'a' && symbol <= 'z')) {
             return true;
         }
         return false;
     }
-
+//+
     public static boolean isNumber(char symbol) {
         if ((symbol >= '0' && symbol <= '9')) {
             return true;
