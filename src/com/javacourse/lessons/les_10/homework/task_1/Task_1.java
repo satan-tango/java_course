@@ -1,7 +1,7 @@
 package com.javacourse.lessons.les_10.homework.task_1;
 
 import java.util.Scanner;
-
+//+
 public class Task_1 {
 
     //Есть предложение. Пользователь вводит букву.
@@ -14,14 +14,17 @@ public class Task_1 {
     }
 
     public static String initString(Scanner scan) {
+        //why do you create it if you do not use it?
         String str = "";
         System.out.print("Enter string: ");
+        //return scan.next();
         return str = scan.next();
     }
 
     public static void isContainChar(String sourceString, Scanner scan) {
         String symbol = "";
         boolean isChar = false;
+        //you could also create another method to return symbol value
         while (!isChar) {
             System.out.print("Enter character: ");
             symbol = scan.next();
