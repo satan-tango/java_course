@@ -14,7 +14,7 @@ public class Task_3 {
         String previousLetter = initData("previous", scan);
         String incorrectLetter = initData("incorrect", scan);
         String correctLatter = initData("correct", scan);
-
+//why do you place editText() in (..)?
         String result = (editText(sourceString, previousLetter, incorrectLetter, correctLatter));
         System.out.println("Result:  " + result);
     }
@@ -38,11 +38,13 @@ public class Task_3 {
         String[] arrayOfWords = sourceString.split(" ");
         String copyString = "";
         for (int i = 0; i < arrayOfWords.length; i++) {
+            //or use method lastIndexOf()
             if (arrayOfWords[i].charAt(arrayOfWords[i].length() - 1) == prevLetter.charAt(0)) {
                 copyString += arrayOfWords[i] + " ";
                 continue;
             } else {
                 if (arrayOfWords[i].charAt(arrayOfWords[i].length() - 1) == incorrectLetter.charAt(0)) {
+                    //replace() method could be used
                     arrayOfWords[i] = arrayOfWords[i].substring(0, arrayOfWords[i].length()-1) + correctLetter;
                 }
                 copyString += arrayOfWords[i] + " ";
