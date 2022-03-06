@@ -3,7 +3,7 @@ package com.javacourse.lessons.les_11.homework.password;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//ok
 public class Password {
 
     //Пользователя просят ввести пароль. Необходимо сделать валидацию:
