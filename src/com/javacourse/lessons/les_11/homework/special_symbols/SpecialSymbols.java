@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class SpecialSymbols {
 
-    //Содержит ли строка только специальные символы
+    //Содержит ли строка только специальные символы.
     public static void main(String[] args) {
         String str1 = "@$&%!~~~~!!@@";
         String str2 = "@#sd$&%!~";
