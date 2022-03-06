@@ -32,6 +32,7 @@ public class Task_1 {
 
     public static boolean checkFirstLetter(String sourceWord, String... letters) {
         for (int i = 0; i < letters.length; i++) {
+//startsWith(..) method is also a good option
             if (sourceWord.charAt(0) == letters[i].charAt(0)) {
                 return true;
             }
