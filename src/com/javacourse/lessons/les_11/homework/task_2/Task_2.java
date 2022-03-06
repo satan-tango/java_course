@@ -3,7 +3,7 @@ package com.javacourse.lessons.les_11.homework.task_2;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//ok
 public class Task_2 {
 
     //Есть текст, пользователь вводит несколько слов. Надо проверить
