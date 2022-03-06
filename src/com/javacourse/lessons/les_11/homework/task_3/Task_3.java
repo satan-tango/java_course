@@ -8,7 +8,7 @@ public class Task_3 {
         String copyString = replaceDotsToComma(sourceString);
         System.out.println("Result: " + copyString);
     }
-
+//too complicated. replace(".",",")
     public static String replaceDotsToComma(String str) {
         String[] arrayOfWords = str.split("\\.");
         String copyString = "";
