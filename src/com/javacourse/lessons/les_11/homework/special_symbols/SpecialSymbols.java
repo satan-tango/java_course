@@ -2,7 +2,7 @@ package com.javacourse.lessons.les_11.homework.special_symbols;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//+
 public class SpecialSymbols {
 
     //Содержит ли строка только специальные символы.
