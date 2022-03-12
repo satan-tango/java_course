@@ -3,7 +3,8 @@ package com.javacourse.lessons.les_12.classwork.task_1;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
-
+//when we initialize something we expect to return it and not printing in method, for that create another method. We should split as 
+//much as possible to make code less coupled
 public class Task_1 {
 
     public static void main(String[] args) {
@@ -62,13 +63,13 @@ public class Task_1 {
             }
             System.out.println("Incorrect data, try again");
         }
-
+//could be another method
         if (typeOfInit == 1) {
             for (int i = 0; i < array.length; i++) {
                 System.out.print("Input value of " + i + " element: ");
                 array[i] = scan.nextInt();
             }
-        } else {
+        } else {//could be another method
             for (int i = 0; i < array.length; i++) {
                 array[i] = randomNumber(100, 10);
             }
@@ -127,7 +128,7 @@ public class Task_1 {
         System.out.println("Array of sort: ");
         System.out.println(Arrays.toString(array));
     }
-
+//logic could be splitted into 2 methods
     public static void replaceLetter(String[] array, Scanner scan) {
         boolean isCorrect = false;
         String letter = "";
