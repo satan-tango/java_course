@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
-    private List<Animal> listOfAnimal;
+    //https://youtube.com/shorts/bfuulDkRK0o?feature=share
+    private List<Animal> listOfAnimal;//currently we use arrays, but ok
 
     public Zoo() {
         listOfAnimal = new ArrayList<>();
