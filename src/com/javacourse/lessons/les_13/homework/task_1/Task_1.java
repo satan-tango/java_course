@@ -13,7 +13,7 @@ public class Task_1 {
         System.out.println(Arrays.toString(arrayOfPeople) + "\n");
         equalsObjects(arrayOfPeople);
     }
-
+//cool
     public static void equalsObjects(Person[] array) {
         int numberOfCoincidences = 0;
         int numberOfEqualsObject = 1;
@@ -26,6 +26,7 @@ public class Task_1 {
                 continue;
             }
             for (int j = i + 1; j < array.length; j++) {
+                //can't we extcract this logic as we have duplication in 25-27 lines?
                 if (length != 0 && isContainIndex(arrayOfIndex, length, j)) {
                     continue;
                 }
