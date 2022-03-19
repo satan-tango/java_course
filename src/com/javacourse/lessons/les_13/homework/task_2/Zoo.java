@@ -16,7 +16,7 @@ public class Zoo {
     }
 
     public void soundOff() {
-        System.out.println("The zoo has " + listOfAnimal.size() + " animals");
+        System.out.println("The zoo has " + listOfAnimal.size() + " animals");//it should be placed in another method. Use decomposition.
         for (Animal animal : listOfAnimal) {
             animal.animalSound();
         }
