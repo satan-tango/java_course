@@ -26,7 +26,7 @@ public class Catalog {
 
     public String outputClassName(Class name) {
         String className = name + "";
-        if (className.matches(".*(\\.CountryHouse)$")) {
+        if (className.matches(".*(\\.CountryHouse)$")) {//getClass().getName()
             return "CountryHouse";
         } else {
             return "HighRiseBuilding";
