@@ -1,5 +1,5 @@
 package com.javacourse.lessons.les_14.homework.task_1;
-
+//+
 public abstract class Building {
     int amountOfFloor;
     boolean heating;
