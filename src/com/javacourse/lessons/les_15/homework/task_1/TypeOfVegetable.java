@@ -1,5 +1,5 @@
 package com.javacourse.lessons.les_15.homework.task_1;
-
+//+
 public enum TypeOfVegetable {
     TOMATO(0.6, 0, 3.8),
     CUCUMBER(0.8, 0.1, 2.5),
