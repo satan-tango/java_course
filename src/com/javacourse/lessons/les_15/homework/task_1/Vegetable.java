@@ -6,6 +6,9 @@ public abstract class Vegetable {
     //If you use enum TypeOfVegetable then all of the specific Vegetable instances are redundant, actually... As they do not
     //have any logic behind
     private TypeOfVegetable typeOfVegetable;
+    public static final int PROTEIN_INDEX = 5;
+    public static final int FAT_INDEX = 9;
+    public static final int CARBOHYDRATE_INDEX = 4;
 
     public Vegetable(double weight, TypeOfVegetable typeOfVegetable) {
         this.weight = weight;
@@ -14,8 +17,8 @@ public abstract class Vegetable {
 
     public int CalculateTheCalorie() {
         double result = 0;
-        //5->const, 9->const, 4->const
-        result = typeOfVegetable.getProteins() * 5 + typeOfVegetable.getFats() * 9 + typeOfVegetable.getCarbohydrates() * 4;
+        result = typeOfVegetable.getProteins() * PROTEIN_INDEX + typeOfVegetable.getFats() * FAT_INDEX
+                + typeOfVegetable.getCarbohydrates() * CARBOHYDRATE_INDEX;
         return (int) (result * weight / 100);
     }
 

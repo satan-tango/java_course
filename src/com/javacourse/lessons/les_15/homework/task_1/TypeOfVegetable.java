@@ -1,4 +1,5 @@
 package com.javacourse.lessons.les_15.homework.task_1;
+
 //+
 public enum TypeOfVegetable {
     TOMATO(0.6, 0, 3.8),
@@ -11,6 +12,7 @@ public enum TypeOfVegetable {
     private double proteins;
     private double fats;
     private double carbohydrates;
+
 
     TypeOfVegetable(double proteins, double fats, double carbohydrates) {
         this.proteins = proteins;
@@ -29,4 +31,5 @@ public enum TypeOfVegetable {
     public double getCarbohydrates() {
         return carbohydrates;
     }
+
 }
