@@ -28,7 +28,7 @@ public class Salad {
 
 
     public List<Vegetable> getVegetablesInSalad() {
-        return listOfVegetables;
+        return listOfVegetables;//return copy of listOfVegetables, not list itself 
     }
 
 
