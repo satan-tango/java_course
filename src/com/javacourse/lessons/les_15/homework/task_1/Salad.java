@@ -28,7 +28,7 @@ public class Salad {
         boolean hasVegetablesInRange = false;
 
         for (Vegetable vegetable : listOfVegetables) {
-            if (calorieRange <= vegetable.CalculateTheCalorie()) {
+            if (calorieRange >= vegetable.CalculateTheCalorie()) {
                 hasVegetablesInRange = true;
                 System.out.println(vegetable.getTypeOfVegetable().name() + ":");
                 System.out.println("Weight - " + vegetable.getWeight() + " grams");
