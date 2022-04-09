@@ -9,7 +9,7 @@ public class Task_3 {
         Map<Integer, Integer> myMap = new HashMap<>();
 
         int index = 1;
-        for (int i = 0; i < 100; i+=2) {
+        for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0) {
                 myMap.put(index, i);
                 index++;
