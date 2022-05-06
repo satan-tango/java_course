@@ -24,7 +24,7 @@ public class Task_1 {
                 case 1:
                     programOperation = 10;
                     while (true) {
-                        System.out.print("Input login: ");
+                        System.out.print("Input login:: ");
                         login = scan.next();
                         System.out.print("Input password: ");
                         password = scan.next();
